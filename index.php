@@ -57,7 +57,7 @@
         </div>
       </div>
     </div>
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+    <!-- <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
 
       <div class="container">
         <div class="d-flex align-items-center">
@@ -74,10 +74,10 @@
                 </li>
                 <li class="has-children">
                   <a href="about.html" class="nav-link text-left">About Us</a>
-                  <ul class="dropdown">
+                   <ul class="dropdown">
                     <li><a href="teachers.html">Our Teachers</a></li>
                     <li><a href="about.html">Our School</a></li>
-                  </ul>
+                  </ul> 
                 </li>
                 <li>
                     <a href="contact.html" class="nav-link text-left">Contact</a>
@@ -100,7 +100,9 @@
         </div>
       </div>
 
-    </header>
+    </header> -->
+
+    <?php include("sections/navbar.php") ?>
 
     
     <div class="hero-slide owl-carousel site-blocks-cover">
@@ -167,11 +169,11 @@
           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
             <div class="feature-1 border">
               <div class="icon-wrapper bg-info">
-                <span class="flaticon-Enterprise text-white"></span>
+                <span class="flaticon- text-white"></span>
               </div>
               <div class="feature-1-content">
-                <h2>Trusted Courses</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
+                <h2>Entreprise</h2>
+                <p>Le site SuiviStage permet aux entreprises de publier facilement des offres de stages pour les étudiants en formation, sans passer par des publcités</p>
                 <p><a href="#" class="btn btn-warning px-4 rounded-0" style="font-weight: bold;">Plus</a></p>
               </div>
             </div> 
@@ -182,8 +184,8 @@
                 <span class="flaticon-library text-white"></span>
               </div>
               <div class="feature-1-content">
-                <h2>Tools for Students</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
+                <h2>Outils pour les établissements</h2>
+                <p>Grâce à ce site, les enseignants, jury et tuteurs peuvent suivre rigoureusement le parcours de chaque étudiant pour une meilleure notation lors des soutenances</p>
                 <p><a href="#" class="btn btn-warning px-4 rounded-0" style="font-weight: bold;">Plus</a></p>
               </div>
             </div> 
@@ -193,174 +195,6 @@
     </div>
 
 
-    <div class="site-section">
-      <div class="container">
-
-
-        <div class="row mb-5 justify-content-center text-center">
-          <div class="col-lg-6 mb-5">
-            <h2 class="section-title-underline mb-3">
-              <span>Popular Courses</span>
-            </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, id?</p>
-          </div>
-        </div>
-        <!--
-
-        <div class="row">
-          <div class="col-12">
-              <div class="owl-slide-3 owl-carousel">
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                      <a href="course-single.html"><img src="images/course_1.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">$99.00</div>
-                      <div class="category"><h3>Mobile Application</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>How To Create Mobile Apps Using Ionic</h2>
-                      <div class="rating text-center mb-3">
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                      </div>
-                      <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                    </div>
-                  </div>
-      
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                      <a href="course-single.html"><img src="images/course_2.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">$99.00</div>
-                      <div class="category"><h3>Web Design</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>How To Create Mobile Apps Using Ionic</h2>
-                      <div class="rating text-center mb-3">
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                      </div>
-                      <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                    </div>
-                  </div>
-      
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                      <a href="course-single.html"><img src="images/course_3.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">$99.00</div>
-                      <div class="category"><h3>Arithmetic</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>How To Create Mobile Apps Using Ionic</h2>
-                      <div class="rating text-center mb-3">
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                      </div>
-                      <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                      <p><a href="courses-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                    </div>
-                  </div>
-
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                        <a href="course-single.html"><img src="images/course_4.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">$99.00</div>
-                      <div class="category"><h3>Mobile Application</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>How To Create Mobile Apps Using Ionic</h2>
-                      <div class="rating text-center mb-3">
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                      </div>
-                      <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                    </div>
-                  </div>
-      
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                        <a href="course-single.html"><img src="images/course_5.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">$99.00</div>
-                      <div class="category"><h3>Web Design</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>How To Create Mobile Apps Using Ionic</h2>
-                      <div class="rating text-center mb-3">
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                      </div>
-                      <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                    </div>
-                  </div>
-      
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                        <a href="course-single.html"><img src="images/course_6.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">$99.00</div>
-                      <div class="category"><h3>Mobile Application</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>How To Create Mobile Apps Using Ionic</h2>
-                      <div class="rating text-center mb-3">
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                        <span class="icon-star2 text-warning"></span>
-                      </div>
-                      <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                    </div>
-                  </div>
-      
-              </div>
-      
-          </div>
-        </div>
-        -->
-
-
-        
-        
-      </div>
-    </div>
-
-    
-
-
-    <div class="section-bg style-1" style="background-image: url('images/about_1.jpg');">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <h2 class="section-title-underline style-2">
-              <span>About Our University</span>
-            </h2>
-          </div>
-          <div class="col-lg-8">
-            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nesciunt quaerat ad reiciendis perferendis voluptate fugiat sunt fuga error totam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus assumenda omnis tempora ullam alias amet eveniet voluptas, incidunt quasi aut officiis porro ad, expedita saepe necessitatibus rem debitis architecto dolore? Nam omnis sapiente placeat blanditiis voluptas dignissimos, itaque fugit a laudantium adipisci dolorem enim ipsum cum molestias? Quod quae molestias modi fugiat quisquam. Eligendi recusandae officiis debitis quas beatae aliquam?</p>
-            <p><a href="#">Read more</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- // 05 - Block -->
   <div class="site-section">
@@ -368,7 +202,7 @@
         <div class="row mb-5">
           <div class="col-lg-4">
             <h2 class="section-title-underline">
-              <span>Testimonials</span>
+              <span>Avis des utilisateurs</span>
             </h2>
           </div>
         </div>
@@ -380,8 +214,8 @@
             <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
               <img src="images/person_1.jpg" alt="Image" class="img-fluid mr-3">
               <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
+                <h3>Marc</h3>
+                <span>Directeur des ressources Humaines de LCS</span>
               </div>
             </div>
             <div>
@@ -391,53 +225,28 @@
 
           <div class="ftco-testimonial-1">
             <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid mr-3">
+              <img src="" alt="Image" class="img-fluid mr-3">
               <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
+                <h3>Habib HOMEGNON</h3>
+                <span>Stagiaire en administratrion réseau</span>
               </div>
             </div>
             <div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
+              <p>Cet outil est tout simplement une aubène pour nous étudiants. Il m'a permis de trouver rapidement un lieu de stage sans trop me gêner</p>
             </div>
           </div>
 
-          <div class="ftco-testimonial-1">
-            <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="images/person_4.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
-            </div>
-          </div>
 
           <div class="ftco-testimonial-1">
             <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="images/person_3.jpg" alt="Image" class="img-fluid mr-3">
+              <img src="" alt="Image" class="img-fluid mr-3">
               <div>
                 <h3>Allison Holmes</h3>
                 <span>Designer</span>
               </div>
             </div>
             <div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
-            </div>
-          </div>
-
-          <div class="ftco-testimonial-1">
-            <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
+              <p>Un outil très pratique...il m'a été d'une grande utilité</p>
             </div>
           </div>
 
@@ -460,7 +269,7 @@
     </div>
     
 
-    <div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
+    <!--<div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
@@ -484,7 +293,7 @@
       </div>
     </div>
     
-    <!-- <div class="news-updates">
+    <div class="news-updates">
       <div class="container">
          
         <div class="row">
@@ -572,13 +381,13 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-7">
-            <h2>Subscribe to us!</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
+            <h2>Abonnement à la NewsLetter!</h2>
+            <p>Soyez informé des différents évènements ou réformes du site !</p>
           </div>
           <div class="col-lg-5">
             <form action="" class="d-flex">
-              <input type="text" class="rounded form-control mr-2 py-3" placeholder="Enter your email">
-              <button class="btn btn-primary rounded py-3 px-4" type="submit">Send</button>
+              <input type="text" class="rounded form-control mr-2 py-3" placeholder="Entrer votre adresse mail">
+              <button class="btn btn-warning rounded py-3 px-4" type="submit">Envoyer</button>
             </form>
           </div>
         </div>
@@ -586,15 +395,15 @@
     </div> 
 
 
-    <div class="footer">
+    <!-- <div class="footer">
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
-            <p class="mb-4"><img src="images/logo.png" alt="Image" class="img-fluid"></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>  
-            <p><a href="#">Learn More</a></p>
-          </div>
-          <div class="col-lg-3">
+            <p class="mb-4"><img src="images/Suivi-removebg-preview.png" alt="Image" class="img-fluid"></p>
+            <p>Un site pour permettre un suivi strict des étudients durant leurs stages de formation</p>  
+            <p><a href="#">En savoir plus</a></p>
+          </div> -->
+          <!-- <div class="col-lg-3">
             <h3 class="footer-heading"><span>Our Campus</span></h3>
             <ul class="list-unstyled">
                 <li><a href="#">Acedemic</a></li>
@@ -615,16 +424,17 @@
                   <li><a href="#">Business Administration</a></li>
                   <li><a href="#">Computer Science</a></li>
               </ul>
-          </div>
-          <div class="col-lg-3">
+          </div> -->
+          <!-- <div class="col-lg-3">
               <h3 class="footer-heading"><span>Contact</span></h3>
-              <ul class="list-unstyled">
-                  <li><a href="#">Help Center</a></li>
-                  <li><a href="#">Support Community</a></li>
-                  <li><a href="#">Press</a></li>
-                  <li><a href="#">Share Your Story</a></li>
-                  <li><a href="#">Our Supporters</a></li>
-              </ul>
+              <div class="social-wrap">
+                <a href="#"><span class="icon-facebook"></span></a>
+                <a href="#"><span class="icon-twitter"></span></a>
+                <a href="#"><span class="icon-linkedin"></span></a>
+  
+                <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+                  class="icon-menu h3"></span></a>
+              </div>
           </div>
         </div>
 
@@ -632,16 +442,19 @@
           <div class="col-12">
             <div class="copyright">
                 <p>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                     Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
                     Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                     Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
                     </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
     
+  
+    <?php include("sections/footer.php") ?>
 
   </div>
   <!-- .site-wrap -->
