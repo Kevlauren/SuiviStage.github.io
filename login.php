@@ -66,50 +66,7 @@
         </div>
       </div>
     </div>
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-
-      <div class="container">
-        <div class="d-flex align-items-center">
-          <div class="site-logo">
-            <a href="index.html" class="d-block">
-              <img src="images/Suivi.png" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="mr-auto">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active">
-                  <a href="index.html" class="nav-link text-left">Home</a>
-                </li>
-                <li class="has-children">
-                  <a href="about.html" class="nav-link text-left">About Us</a>
-                  <ul class="dropdown">
-                    <li><a href="teachers.html">Our Teachers</a></li>
-                    <li><a href="about.html">Our School</a></li>
-                  </ul>
-                </li>
-                <li>
-                    <a href="contact.html" class="nav-link text-left">Contact</a>
-                  </li>
-              </ul>                                                                                                                                                                                                                                                                                          </ul>
-            </nav>
-
-          </div>
-          <div class="ml-auto">
-            <div class="social-wrap">
-              <a href="#"><span class="icon-facebook"></span></a>
-              <a href="#"><span class="icon-twitter"></span></a>
-              <a href="#"><span class="icon-linkedin"></span></a>
-
-              <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
-                class="icon-menu h3"></span></a>
-            </div>
-          </div>
-         
-        </div>
-      </div>
-
-    </header>
+    <?php include("sections/navbar.php") ?>
 
     
     <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('images/bg_1.jpg')">
@@ -150,7 +107,7 @@
                       </div>
                   </div>
                   <div class="row">
-                      <div class="col-12" align="center">
+                      <div class="col-12" text-align="center">
                           <input type="submit" id="bton" value="Log In" class="btn btn-primary btn-lg px-5">
                       </div>
                   </div>
@@ -163,61 +120,7 @@
   </div>
 
     
-
-  <div class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <p class="mb-4"><h1><span style="color: #1072ac;">Suivi</span><span style="color: #d58a10;">Stage</span> </h1></p>
-          <p><a href="#">Learn More</a></p>
-        </div>
-        <div class="col-lg-3">
-          <h3 class="footer-heading"><span>Our Campus</span></h3>
-          <ul class="list-unstyled">
-              <li><a href="#">Acedemic</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Our Interns</a></li>
-              <li><a href="#">Our Leadership</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Human Resources</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3">
-            <h3 class="footer-heading"><span>Our Courses</span></h3>
-            <ul class="list-unstyled">
-                <li><a href="#">Math</a></li>
-                <li><a href="#">Science &amp; Engineering</a></li>
-                <li><a href="#">Arts &amp; Humanities</a></li>
-                <li><a href="#">Economics &amp; Finance</a></li>
-                <li><a href="#">Business Administration</a></li>
-                <li><a href="#">Computer Science</a></li>
-            </ul>
-        </div>
-        <div class="col-lg-3">
-            <h3 class="footer-heading"><span>Contact</span></h3>
-            <ul class="list-unstyled">
-                <li><a href="#">Help Center</a></li>
-                <li><a href="#">Support Community</a></li>
-                <li><a href="#">Press</a></li>
-                <li><a href="#">Share Your Story</a></li>
-                <li><a href="#">Our Supporters</a></li>
-            </ul>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <div class="copyright">
-              <p>
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                  </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php include("sections/footer.php") ?>
     
 
   </div>
