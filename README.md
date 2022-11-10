@@ -6,7 +6,8 @@ SuiviStage
 Installation{
 	Etape 1 : Cloner le projet
 
-    	git@github.com:Kevlauren/SuiviStage_projetweb.git
+    	git clone git@github.com:Kevlauren/SuiviStage.github.io 
+
 
 	Etape 2 : Démarer le serveur php
 
@@ -22,12 +23,6 @@ Branches du projet{
 }
 		
 
-
-[TOSSOU Keyvan Lauren][contributeur - tossoukeyvan@gmail.com - 60393141]
-
-[HOMEGNON Habib][contributeur - damsnwarr@gmail.com - 66379700]
-
-[EZIN Hervée][contributeur - herveezin@gmail.com - 52079899]
 
 
 
